@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Kanit&family=Libre+Baskerville&family=Montserrat:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: #D2DAFF;
+}
+
+#wrapper{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:underline;
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #3F4450;
+}
+
+header p{
+    color: #3F4450;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+header a{
+    color: #3F4450;
+}
+
+.container{
+    /* border: 1px solid black; */
+    margin: 50px 150px;
+    gap:50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right{
+    width: 48%;
+}
+
+.blog{
+    border: 2px solid #3F4450;
+    padding: 15px;
+    background-color: #AAC4FF;
+    border-radius: 10px;
+}
+
+.blog a, .blog p{
+    color: #132a13;
+    margin: 8px 0;
+}
+
+.blog a{
+    transition: transform 0.5s ease;
+    margin: 4px 0;
+    display: inline-block;
+}
+
+.blog h2{
+    color: #0c0e4d;
+    margin: 5px 0;
+}
+
+.blog h4{
+    color: #3f3fb5;
+}
+
+.blog:hover a{
+    transform: scale(1.1);
+}
